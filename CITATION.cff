@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+title: Arabic Honorifics Complete
+message: >-
+  This font packages calligraphy created by BaAlwi Heritage (ID). If you use it,
+  please credit them and cite the source artwork listed under `references`.
+type: software
+abstract: >-
+  An OpenType font of 61 Arabic Islamic honorific ligatures in the classical
+  Thuluth/Naskh printing tradition, built from the arabic-honorific-ligatures
+  artwork by BaAlwi Heritage (ID). Twenty glyphs are mapped to genuinely encoded
+  Unicode codepoints; the remaining forty-one, which Unicode does not encode,
+  occupy a documented Private Use Area block.
+authors:
+  - name: BaAlwi Heritage (ID)
+    website: 'https://baalwi.net'
+    email: info@baalwi.net
+version: 1.000
+date-released: '2026-08-05'
+license: CC-BY-4.0
+repository-code: 'https://github.com/eraduz/ArabicHonorificsComplete'
+url: 'https://eraduz.github.io/ArabicHonorificsComplete/'
+keywords:
+  - arabic
+  - arabic-typography
+  - islamic
+  - honorifics
+  - ligatures
+  - calligraphy
+  - naskh
+  - thuluth
+  - opentype
+  - font
+  - unicode
+references:
+  - type: art
+    title: arabic-honorific-ligatures
+    abstract: >-
+      SVG artwork for 61 Arabic Islamic honorific ligatures, handcrafted in
+      Inkscape. The source material this font is built from.
+    authors:
+      - name: BaAlwi Heritage (ID)
+        website: 'https://baalwi.net'
+    repository-code: 'https://github.com/baalwi-id/arabic-honorific-ligatures'
+    license: CC-BY-4.0
+    year: 2026
