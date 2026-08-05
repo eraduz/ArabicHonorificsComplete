@@ -51,10 +51,11 @@ the font to *Arabic Honorifics Complete*.
 **Without leaving Word** — type the code from [`cheatsheet.md`](cheatsheet.md) and
 press <kbd>Alt</kbd>+<kbd>X</kbd>. Word converts it into the character in place:
 
-```
-FD41  →  Alt+X  →  ﷑     (raḍiyallāhu ʿanhu)
-FDFA  →  Alt+X  →  ﷺ     (ṣallallāhu ʿalayhi wa sallam)
-```
+| Type | Press | You get | |
+|---|---|---|---|
+| `FD41` | <kbd>Alt</kbd>+<kbd>X</kbd> | ﷑ | raḍiyallāhu ʿanhu |
+| `FDFA` | <kbd>Alt</kbd>+<kbd>X</kbd> | ﷺ | ṣallallāhu ʿalayhi wa sallam |
+| `E902` | <kbd>Alt</kbd>+<kbd>X</kbd> | (PUA) | jalla wa ʿala |
 
 Then select that character and apply the font.
 
@@ -62,10 +63,10 @@ Then select that character and apply the font.
 and run [`typing/honorifics.ahk`](typing/honorifics.ahk). Type a shortcode followed
 by a space and it becomes the character:
 
-```
-\rad-radiyallahu-anhu·  →  ﷑
-\sal-sallallahu-alayhi-wa-sallam-rounded·  →  ﷺ
-```
+| Type this, then a space | You get | |
+|---|---|---|
+| `\rad-radiyallahu-anhu` | ﷑ | raḍiyallāhu ʿanhu |
+| `\sal-sallallahu-alayhi-wa-sallam-rounded` | ﷺ | ṣallallāhu ʿalayhi wa sallam |
 
 Every shortcode is just the glyph name with a `\` in front, so there is nothing to
 memorise. The full list is in [`cheatsheet.csv`](cheatsheet.csv).
@@ -145,6 +146,13 @@ no font required.
 Each glyph's status is in the **Copy-paste safe** column of
 [`cheatsheet.md`](cheatsheet.md), and in the labels on the images below: a plain
 `U+FD41` is a real codepoint, `U+E91C - PUA` is not.
+
+> **One caveat about monospace.** `U+FD40`–`U+FD4F` were added in Unicode 16.0
+> (2024). Regular UI and text fonts on an up-to-date system cover them, but most
+> *monospace* fonts do not yet — so in a code editor, a terminal, or a fenced code
+> block on GitHub they may show as an empty box even though they are perfectly
+> valid characters. In ordinary prose they render fine. `U+FDFA` and `U+FDFB` are
+> decades older and render essentially everywhere.
 
 ---
 
