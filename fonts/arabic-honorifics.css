@@ -1,0 +1,31 @@
+/* Arabic Honorifics Complete — web use.
+   Artwork (c) 2026 BaAlwi Heritage (ID), CC BY 4.0.
+   Put the font files next to this stylesheet, or fix up the paths. */
+
+@font-face {
+  font-family: "Arabic Honorifics Complete";
+  src: url("ArabicHonorificsComplete-Regular.woff2") format("woff2"),
+       url("ArabicHonorificsComplete-Regular.woff")  format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Wrap a honorific character in this to render it from the font. */
+.honorific {
+  font-family: "Arabic Honorifics Complete";
+  line-height: 1;
+}
+
+/* Square composition of sallallahu alayhi wa sallam. */
+.honorific--square {
+  font-feature-settings: "ss01" 1;
+}
+
+/* Let the honorific sit in running text without inflating line height.
+   The glyphs are a full em tall and sit on the baseline, so a body-text run
+   usually wants them a touch smaller than the surrounding size. */
+.honorific--inline {
+  font-size: 1.35em;
+  vertical-align: -0.12em;
+}

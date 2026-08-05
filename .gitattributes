@@ -1,0 +1,13 @@
+* text=auto eol=lf
+
+*.otf   binary
+*.ttf   binary
+*.woff  binary
+*.woff2 binary
+*.png   binary
+
+# AutoHotkey needs its UTF-8 BOM and Windows line endings preserved
+*.ahk   text eol=crlf
+
+# Spreadsheets: keep CRLF so Excel opens them cleanly
+*.csv   text eol=crlf
