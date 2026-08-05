@@ -14,6 +14,10 @@ authors:
   - name: BaAlwi Heritage (ID)
     website: 'https://baalwi.net'
     email: info@baalwi.net
+contact:
+  - given-names: Reda
+    family-names: Eraduz
+    alias: eraduz
 version: 1.000
 date-released: '2026-08-05'
 license: CC-BY-4.0

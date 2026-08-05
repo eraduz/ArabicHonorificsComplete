@@ -52,6 +52,20 @@ Changes made to the source material, as required by the licence:
   This string is what the glyph browser offers as a plain-text fallback, so it
   had to match the artwork.
 
+## Licence notice
+
+[`LICENSE`](LICENSE) holds the verbatim Creative Commons Attribution 4.0
+International legal code, unaltered, so that automated tooling can identify it.
+The notice that belongs with it is this:
+
+> Artwork copyright © 2026 BaAlwi Heritage (ID) — https://baalwi.net
+> Source: https://github.com/baalwi-id/arabic-honorific-ligatures
+> Licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+> This font build is a derivative of that artwork; changes are listed above.
+
+If you redistribute this font, reproducing that block satisfies the licence's
+attribution requirement.
+
 ## Fonts referenced in the documentation
 
 [Scheherazade New](https://software.sil.org/scheherazade/) (SIL) and
