@@ -83,6 +83,14 @@ h2 .count { margin-inline-start:auto; font-size:11px; opacity:.7; }
 .act:hover, .cp.real:hover, .cp.pua:hover { filter:brightness(1.08); }
 .card.hidden { display:none; }
 .group.hidden { display:none; }
+.downloads { display:grid; gap:10px; margin:22px 0 0;
+  grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); }
+.dl { display:block; padding:13px 15px; border-radius:9px; text-decoration:none;
+  border:1px solid var(--line); background:var(--card); color:var(--fg); }
+.dl:hover { border-color:var(--accent); }
+.dl b { display:block; font-size:14px; margin-bottom:3px; }
+.dl span { font-size:12px; color:var(--dim); line-height:1.45; display:block; }
+.dl .go { color:var(--accent); font-weight:600; }
 #toast { position:fixed; bottom:24px; left:50%; transform:translate(-50%,20px);
   background:var(--accent); color:#fff; padding:10px 18px; border-radius:20px;
   font-size:13px; opacity:0; transition:.18s; pointer-events:none; z-index:20; }
@@ -104,6 +112,27 @@ h2 .count { margin-inline-start:auto; font-size:11px; opacity:.7; }
   that covers them. The 41 marked <i>no Unicode</i> live in the
   Private Use Area, so they only display where this font is installed. Use
   &ldquo;copy Arabic text&rdquo; when sending to somewhere that does not have the font.</p>
+
+  <div class="downloads">
+    <a class="dl" href="https://github.com/eraduz/ArabicHonorificsComplete/releases/latest">
+      <b>Download the font</b>
+      <span>OTF, TTF, WOFF2 and WOFF, plus this specimen offline.
+      Install this first &mdash; everything else needs it.</span>
+      <span class="go">Latest release &rarr;</span>
+    </a>
+    <a class="dl" href="addin/ArabicHonorifics-WordAddin.zip">
+      <b>Word add-in</b>
+      <span>A task pane that inserts any honorific at the cursor with the
+      font already applied. Windows installer included.</span>
+      <span class="go">Download .zip &rarr;</span>
+    </a>
+    <a class="dl" href="https://github.com/eraduz/ArabicHonorificsComplete#readme">
+      <b>How to use it</b>
+      <span>Typing shortcuts, the Word add-in, why some glyphs travel through
+      copy-paste and others do not.</span>
+      <span class="go">Read the guide &rarr;</span>
+    </a>
+  </div>
 </header>
 
 <div class="controls">

@@ -66,6 +66,10 @@ if (-not $principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administra
     Write-Host "Sharing a folder needs administrator rights - asking for them now." -ForegroundColor Yellow
     $argList = @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', "`"$PSCommandPath`"",
                  '-Folder', "`"$Folder`"", '-ShareName', "`"$ShareName`"")
+    if (-not $ManifestPath) {
+        $sib = Join-Path (Split-Path -Parent $PSCommandPath) 'manifest.xml'
+        if (Test-Path $sib) { $ManifestPath = $sib }
+    }
     if ($ManifestPath) { $argList += @('-ManifestPath', "`"$ManifestPath`"") }
     if ($Uninstall)    { $argList += '-Uninstall' }
     Start-Process powershell -Verb RunAs -ArgumentList $argList
@@ -108,6 +112,12 @@ Write-Note "computer $env:COMPUTERNAME, user $env:USERNAME"
 Write-Step 1 "Folder and manifest"
 if (-not (Test-Path $Folder)) { New-Item -ItemType Directory -Path $Folder | Out-Null }
 $target = Join-Path $Folder $ManifestFile
+
+# A manifest shipped alongside this script wins, so the zip installs offline.
+if (-not $ManifestPath) {
+    $sibling = Join-Path (Split-Path -Parent $PSCommandPath) 'manifest.xml'
+    if (Test-Path $sibling) { $ManifestPath = $sibling }
+}
 
 if ($ManifestPath) {
     Copy-Item -LiteralPath $ManifestPath -Destination $target -Force
