@@ -73,6 +73,28 @@ Click **Honorifics** on the Home tab to open the pane.
 
 ---
 
+## Offline
+
+An Office task pane is a web page Word loads from a URL, so the **first** time you
+open it you need a connection. From then on a service worker (`sw.js`) serves it
+from a local cache and it opens without one — including the Office JavaScript
+library, which is cached as an opaque cross-origin response.
+
+That covers Word versions running on a modern webview: Microsoft 365, Word 2019
+and later on Windows, and Word on Mac. Older builds using the legacy webview have
+no service worker, and there the pane needs the network every time. There is no
+way around that from inside an add-in: the architecture has no local-file option.
+
+Two things stay offline regardless:
+
+- **Your documents.** Once a honorific is in the text it is ordinary content. It
+  needs the font installed, never the add-in.
+- **`Alt`+`X` and the AutoHotkey shortcodes** in `typing/honorifics.ahk`. Both are
+  fully local.
+
+If you need a picker that never touches the network at all, that has to be a VBA
+template rather than a web add-in — ask and it can be built.
+
 ## How it is hosted
 
 Office add-ins have to be served over HTTPS, so the pane lives on this

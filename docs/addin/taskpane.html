@@ -101,6 +101,12 @@ function insert(btn) {
   });
 }
 
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(function () {
+    /* no offline cache; the pane still works online */
+  });
+}
+
 Office.onReady(function () {
   var items = document.querySelectorAll('.it');
   for (var i = 0; i < items.length; i++) {
