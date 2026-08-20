@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+           xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides"
+           xsi:type="TaskPaneApp">
+  <Id>8f3c1a52-6b4d-4f1e-9c7a-2d5e8b1f4a90</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>BaAlwi Heritage (ID)</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Arabic Honorifics"/>
+  <Description DefaultValue="Insert Arabic Islamic honorific ligatures, with the font applied to both the Latin and the complex-script slot so they always render."/>
+  <IconUrl DefaultValue="https://eraduz.github.io/ArabicHonorificsComplete/addin/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://eraduz.github.io/ArabicHonorificsComplete/addin/icon-80.png"/>
+  <SupportUrl DefaultValue="https://github.com/eraduz/ArabicHonorificsComplete"/>
+  <AppDomains>
+    <AppDomain>https://eraduz.github.io</AppDomain>
+  </AppDomains>
+  <Hosts>
+    <Host Name="Document"/>
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://eraduz.github.io/ArabicHonorificsComplete/addin/taskpane.html"/>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
+    <Hosts>
+      <Host xsi:type="Document">
+        <DesktopFormFactor>
+          <GetStarted>
+            <Title resid="GetStarted.Title"/>
+            <Description resid="GetStarted.Desc"/>
+            <LearnMoreUrl resid="Support.Url"/>
+          </GetStarted>
+          <FunctionFile resid="Commands.Url"/>
+          <ExtensionPoint xsi:type="PrimaryCommandSurface">
+            <OfficeTab id="TabHome">
+              <Group id="AHC.Group">
+                <Label resid="Group.Label"/>
+                <Icon>
+                  <bt:Image size="16" resid="Icon.16"/>
+                  <bt:Image size="32" resid="Icon.32"/>
+                  <bt:Image size="80" resid="Icon.80"/>
+                </Icon>
+                <Control xsi:type="Button" id="AHC.Open">
+                  <Label resid="Button.Label"/>
+                  <Supertip>
+                    <Title resid="Button.Label"/>
+                    <Description resid="Button.Tip"/>
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="Icon.16"/>
+                    <bt:Image size="32" resid="Icon.32"/>
+                    <bt:Image size="80" resid="Icon.80"/>
+                  </Icon>
+                  <Action xsi:type="ShowTaskpane">
+                    <TaskpaneId>AHC.Taskpane</TaskpaneId>
+                    <SourceLocation resid="Taskpane.Url"/>
+                  </Action>
+                </Control>
+              </Group>
+            </OfficeTab>
+          </ExtensionPoint>
+        </DesktopFormFactor>
+      </Host>
+    </Hosts>
+    <Resources>
+      <bt:Images>
+        <bt:Image id="Icon.16" DefaultValue="https://eraduz.github.io/ArabicHonorificsComplete/addin/icon-16.png"/>
+        <bt:Image id="Icon.32" DefaultValue="https://eraduz.github.io/ArabicHonorificsComplete/addin/icon-32.png"/>
+        <bt:Image id="Icon.80" DefaultValue="https://eraduz.github.io/ArabicHonorificsComplete/addin/icon-80.png"/>
+      </bt:Images>
+      <bt:Urls>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://eraduz.github.io/ArabicHonorificsComplete/addin/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://eraduz.github.io/ArabicHonorificsComplete/addin/commands.html"/>
+        <bt:Url id="Support.Url" DefaultValue="https://github.com/eraduz/ArabicHonorificsComplete"/>
+      </bt:Urls>
+      <bt:ShortStrings>
+        <bt:String id="Group.Label" DefaultValue="Honorifics"/>
+        <bt:String id="Button.Label" DefaultValue="Arabic Honorifics"/>
+        <bt:String id="GetStarted.Title" DefaultValue="Arabic Honorifics is ready"/>
+      </bt:ShortStrings>
+      <bt:LongStrings>
+        <bt:String id="Button.Tip" DefaultValue="Open the honorific picker. Click a glyph to insert it at the cursor with the correct font applied."/>
+        <bt:String id="GetStarted.Desc" DefaultValue="Open the Honorifics pane from the Home tab, then click a glyph to insert it. Install the Arabic Honorifics Complete font first, or the glyphs will not draw."/>
+      </bt:LongStrings>
+    </Resources>
+  </VersionOverrides>
+</OfficeApp>

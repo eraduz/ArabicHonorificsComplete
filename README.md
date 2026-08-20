@@ -78,6 +78,22 @@ memorise. The full list is in [`cheatsheet.csv`](cheatsheet.csv).
 
 ---
 
+## A picker for Word
+
+Instead of typing codepoints, there is a task-pane add-in: all 61 honorifics in a
+searchable list, click one and it lands at the cursor with the font applied.
+
+<!-- installation and details: docs/addin/README.md -->
+
+It exists mainly to make the font-slot problem above impossible: it inserts OOXML
+that sets `w:ascii`, `w:hAnsi` and `w:cs` together, so a glyph can never end up
+drawn with a font that has no glyph for it. It can also insert the spelled-out
+Arabic phrase instead, for text that has to survive leaving your machine.
+
+Works in Word on Windows, Mac and the web. **[Install instructions →](docs/addin/README.md)**
+
+---
+
 ## Using it on a website
 
 Copy the `fonts/` folder to your site and link the stylesheet:
