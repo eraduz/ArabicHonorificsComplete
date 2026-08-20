@@ -12,7 +12,9 @@
 # Spreadsheets: keep CRLF so Excel opens them cleanly
 *.csv   text eol=crlf
 
-# Windows scripts: batch files in particular can misbehave with LF endings
-*.cmd   text eol=crlf
-*.bat   text eol=crlf
-*.ps1   text eol=crlf
+# Windows scripts. These are downloaded straight from GitHub Pages rather than
+# cloned, and a raw download serves whatever bytes are in the index -- eol=crlf
+# would only apply on checkout. So store them verbatim instead.
+*.cmd   -text
+*.bat   -text
+*.ps1   -text
