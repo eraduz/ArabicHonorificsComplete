@@ -28,10 +28,35 @@ installed on the machine or the inserted glyphs will not draw.
 
 Done. The button appears on the Home tab.
 
-## Word on Windows
+## Word on Windows — with the installer
 
-Windows sideloads add-ins from a *shared* folder, so the folder has to be shared
-even though it is on your own machine.
+Download [`Install-WordAddin.cmd`](Install-WordAddin.cmd) and
+[`Install-WordAddin.ps1`](Install-WordAddin.ps1) into the same folder and
+double-click the `.cmd`. It will ask for administrator rights, because sharing a
+folder needs them.
+
+It does three things, and says so as it goes:
+
+1. Creates `C:\WordAddins` and puts the current `manifest.xml` there.
+2. Shares that folder read-only to your own account.
+3. Registers the share as a trusted add-in catalogue.
+
+Then close Word, open it again, and go to
+**Insert ▸ My Add-ins ▸ SHARED FOLDER ▸ Arabic Honorifics ▸ Add**.
+
+To reverse all three, double-click [`Uninstall-WordAddin.cmd`](Uninstall-WordAddin.cmd).
+
+> Step 3 writes a Trust Center setting — the same one the Trust Center dialog
+> writes. That is why it is in a script you run yourself rather than something
+> done quietly on your behalf. The script is short and readable; look at it first
+> if you would rather.
+
+## Word on Windows — by hand
+
+If you would rather not run a script, or you have no administrator rights on
+step 2, these are the same steps manually. Windows sideloads add-ins from a
+*shared* folder, so the folder has to be shared even though it is on your own
+machine.
 
 1. Make a folder, e.g. `C:\WordAddins`, and put `manifest.xml` in it.
 2. Right-click the folder ▸ **Properties ▸ Sharing ▸ Share…**, add your own user
