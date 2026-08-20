@@ -11,3 +11,8 @@
 
 # Spreadsheets: keep CRLF so Excel opens them cleanly
 *.csv   text eol=crlf
+
+# Windows scripts: batch files in particular can misbehave with LF endings
+*.cmd   text eol=crlf
+*.bat   text eol=crlf
+*.ps1   text eol=crlf
