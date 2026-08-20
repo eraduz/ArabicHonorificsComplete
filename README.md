@@ -269,6 +269,34 @@ when you specifically want *this* artwork and the font is guaranteed present.
 
 ---
 
+## If a glyph shows as an empty box in Word
+
+If the Unicode honorifics render but the PUA ones (`U+E900`–`U+E93C`) come out as
+empty boxes, the font is fine — Word is looking in the wrong place.
+
+Word keeps **two font settings per run**: one for Latin text and one for complex
+scripts. It picks between them by the *script* of each character:
+
+| Character | Unicode script | Word uses | Result |
+|---|---|---|---|
+| `U+FD41` and the other 19 | Arabic | the **complex scripts** font | renders |
+| `U+E900`–`U+E93C` | Common (PUA has no script) | the **Latin text** font | box, if that font is not this one |
+
+So a document can have *Arabic Honorifics Complete* set as its complex-scripts
+font, draw all 20 Unicode honorifics perfectly, and still show boxes for the
+other 41 — because those are being drawn with whatever the Latin font is.
+
+**The fix.** Select the affected text, press <kbd>Ctrl</kbd>+<kbd>D</kbd>, and set
+**both** *Latin text font* and *Complex scripts font* to Arabic Honorifics
+Complete. Setting the font from the Home ribbon usually does this for you, but
+not when the run already carries an explicit Latin font.
+
+This is a property of how Unicode classifies the Private Use Area, not something
+a font can override. It is also the price of the codepoint choice explained
+above: mapping these glyphs into unassigned Arabic codepoints would make Word
+route them to the complex-scripts slot, but would break the documents the day
+Unicode assigns those codepoints to something else.
+
 ## Credits
 
 The calligraphy is the work of **[BaAlwi Heritage (ID)](https://baalwi.net)** and is

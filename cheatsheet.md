@@ -6,6 +6,8 @@
 
 The `Glyph` column holds the actual character — copy it straight from here.
 
+> **If a PUA glyph shows as an empty box in Word**, the font is fine — Word is using its *Latin text* font for it, because the Private Use Area has no Unicode script and so does not go to the *complex scripts* slot the way the `U+FDxx` honorifics do. Select the text, press `Ctrl`+`D`, and set **both** font boxes to Arabic Honorifics Complete.
+
 ## alh — Allah
 
 | Glyph | Arabic | Transliteration | Type | Unicode | Copy-paste safe |
