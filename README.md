@@ -65,11 +65,19 @@ by a space and it becomes the character:
 
 | Type this, then a space | You get | |
 |---|---|---|
-| `\rad-radiyallahu-anhu` | ﷑ | raḍiyallāhu ʿanhu |
-| `\sal-sallallahu-alayhi-wa-sallam-rounded` | ﷺ | ṣallallāhu ʿalayhi wa sallam |
+| `\ra` | ﷑ | raḍiyallāhu ʿanhu |
+| `\rama` | ﵄ | raḍiyallāhu ʿanhumā |
+| `\saw` | ﷺ | ṣallallāhu ʿalayhi wa sallam |
 
-Every shortcode is just the glyph name with a `\` in front, so there is nothing to
-memorise. The full list is in [`cheatsheet.csv`](cheatsheet.csv).
+The short codes follow a pattern rather than being arbitrary: a group code plus
+the Arabic pronoun as a suffix — nothing = *-hu*, `a` = *-hā*, `m` = *-hum*,
+`ma` = *-humā*, `n` = *-hunna*. Learn the eleven group codes and the other fifty
+follow from them. The same suffixes work on `\rh` (raḥimahullāh),
+`\rm` (raḥmatullāhi ʿalayh), `\as` (ʿalayhis salām) and the rest.
+
+The full glyph name also works as a code, if you would rather not remember
+anything — `\rad-radiyallahu-anhu` does the same thing. Both are listed in
+[`cheatsheet.csv`](cheatsheet.csv).
 
 > **On size** — the glyphs are a full em tall and sit on the baseline, so at the
 > same point size as your body text they look noticeably larger. That is usually

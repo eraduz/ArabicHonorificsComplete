@@ -1,62 +1,62 @@
-﻿stem,glyph_name,group,group_title,arabic,translit,unicode,unicode_name,pua,shortcode,codepoint_to_type,copy_paste_safe
-alh-azza-wa-jalla,alhAzzaWaJalla,alh,Allah,عزَّ وجلَّ,‘azza wa jalla,FDFF,ARABIC LIGATURE AZZA WA JALL,E900,\alh-azza-wa-jalla,FDFF,yes
-alh-jalla-jalaluh,alhJallaJalaluh,alh,Allah,جلَّ جلاله,jalla jalāluh,FDFB,ARABIC LIGATURE JALLAJALALOUHOU,E901,\alh-jalla-jalaluh,FDFB,yes
-alh-jalla-wa-ala,alhJallaWaAla,alh,Allah,جلَّ وعلا,jalla wa ‘ala,,,E902,\alh-jalla-wa-ala,E902,no
-alh-subhanahu-wa-taala,alhSubhanahuWaTaala,alh,Allah,سبحانه وتعالى,subḥanahu wa ta‘ālā,FDFE,ARABIC LIGATURE SUBHAANAHU WA TAAALAA,E903,\alh-subhanahu-wa-taala,FDFE,yes
-alh-tabaraka-wa-taala,alhTabarakaWaTaala,alh,Allah,تبارك وتعالى,tabāraka wa ta‘ālā,FD4E,ARABIC LIGATURE TABAARAKA WA-TAAALAA,E904,\alh-tabaraka-wa-taala,FD4E,yes
-alh-taala,alhTaala,alh,Allah,تعالى,ta‘ālā,,,E905,\alh-taala,E905,no
-sal-sallallahu-alayhi-wa-ala-alih,salSallallahuAlayhiWaAlaAlih,sal,Sallallahu,صلى الله عليه وعلى آله,ṣallallāhu ‘alayhi wa ‘alā ālih,FD46,ARABIC LIGATURE SALLALLAAHU ALAYHI WA-AALIH,E906,\sal-sallallahu-alayhi-wa-ala-alih,FD46,yes
-sal-sallallahu-alayhi-wa-ala-alihi-wa-sallam,salSallallahuAlayhiWaAlaAlihiWaSallam,sal,Sallallahu,صلى الله عليه وعلى آله وسلم,ṣallallāhu ‘alayhi wa ‘alā ālihi wa sallam,FD4C,ARABIC LIGATURE SALLALLAHU ALAYHI WAAALIHEE WA-SALLAM,E907,\sal-sallallahu-alayhi-wa-ala-alihi-wa-sallam,FD4C,yes
-sal-sallallahu-alayhi-wa-sallam-rounded,salSallallahuAlayhiWaSallamRounded,sal,Sallallahu,صلى الله عليه وسلم,ṣallallāhu ‘alayhi wa sallam (rounded),FDFA,ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM,E908,\sal-sallallahu-alayhi-wa-sallam-rounded,FDFA,yes
-sal-sallallahu-alayhi-wa-sallam-square,salSallallahuAlayhiWaSallamSquare,sal,Sallallahu,صلى الله عليه وسلم,ṣallallāhu ‘alayhi wa sallam (square),,,E909,\sal-sallallahu-alayhi-wa-sallam-square,E909,no
-slt-alayhi-assalatu-was-salam,sltAlayhiAssalatuWasSalam,slt,As-Salatu was-Salam,عليه الصلاة والسلام,‘alayhiṣ ṣalātu was salām,FD4A,ARABIC LIGATURE ALAYHI AS-SALAATU WAS-SALAAM,E90A,\slt-alayhi-assalatu-was-salam,FD4A,yes
-slt-alayha-assalatu-was-salam,sltAlayhaAssalatuWasSalam,slt,As-Salatu was-Salam,عليها الصلاة والسلام,‘alayhaṣ ṣalātu was salām,,,E90B,\slt-alayha-assalatu-was-salam,E90B,no
-slt-alayhi-wa-ala-alihi-assalatu-was-salam,sltAlayhiWaAlaAlihiAssalatuWasSalam,slt,As-Salatu was-Salam,عليه وعلى آله الصلاة والسلام,‘alayhi wa ‘alā ālihiṣ ṣalatu was salām,,,E90C,\slt-alayhi-wa-ala-alihi-assalatu-was-salam,E90C,no
-slt-alayhim-assalatu-was-salam,sltAlayhimAssalatuWasSalam,slt,As-Salatu was-Salam,عليهم الصلاة والسلام,‘alayhimuṣ ṣalātu was salām,,,E90D,\slt-alayhim-assalatu-was-salam,E90D,no
-slt-alayhima-assalatu-was-salam,sltAlayhimaAssalatuWasSalam,slt,As-Salatu was-Salam,عليهما الصلاة والسلام,‘alayhimaṣ ṣalātu was salām,,,E90E,\slt-alayhima-assalatu-was-salam,E90E,no
-slm-alayhi-assalam,slmAlayhiAssalam,slm,As-Salam,عليه السلام,‘alayhis salām,FD47,ARABIC LIGATURE ALAYHI AS-SALAAM,E90F,\slm-alayhi-assalam,FD47,yes
-slm-alayha-assalam,slmAlayhaAssalam,slm,As-Salam,عليها السلام,‘alayhas salām,FD4D,ARABIC LIGATURE ALAYHAA AS-SALAAM,E910,\slm-alayha-assalam,FD4D,yes
-slm-alayhim-assalam,slmAlayhimAssalam,slm,As-Salam,عليهم السلام,‘alayhimus salām,FD48,ARABIC LIGATURE ALAYHIM AS-SALAAM,E911,\slm-alayhim-assalam,FD48,yes
-slm-alayhima-assalam,slmAlayhimaAssalam,slm,As-Salam,عليهما السلام,‘alayhimas salām,FD49,ARABIC LIGATURE ALAYHIMAA AS-SALAAM,E912,\slm-alayhima-assalam,FD49,yes
-slw-salawatullah-alayhi,slwSalawatullahAlayhi,slw,Salawatullah,صلوات الله عليه,ṣalawātullāhi ‘alayhi,,,E913,\slw-salawatullah-alayhi,E913,no
-slw-salawatullah-alayha,slwSalawatullahAlayha,slw,Salawatullah,صلوات الله عليها,ṣalawātullāhi ‘alayhā,,,E914,\slw-salawatullah-alayha,E914,no
-slw-salawatullah-alayhim,slwSalawatullahAlayhim,slw,Salawatullah,صلوات الله عليهم,ṣalawātullāhi ‘alayhim,,,E915,\slw-salawatullah-alayhim,E915,no
-slw-salawatullah-alayhima,slwSalawatullahAlayhima,slw,Salawatullah,صلوات الله عليهما,ṣalawātullāhi ‘alayhimā,,,E916,\slw-salawatullah-alayhima,E916,no
-rad-radiyallahu-anhu,radRadiyallahuAnhu,rad,Radiyallahu,رضي الله عنه,raḍiyallāhu ‘anhu,FD41,ARABIC LIGATURE RADI ALLAAHU ANH,E917,\rad-radiyallahu-anhu,FD41,yes
-rad-radiyallahu-anha,radRadiyallahuAnha,rad,Radiyallahu,رضي الله عنها,raḍiyallāhu ‘anhā,FD42,ARABIC LIGATURE RADI ALLAAHU ANHAA,E918,\rad-radiyallahu-anha,FD42,yes
-rad-radiyallahu-anhum,radRadiyallahuAnhum,rad,Radiyallahu,رضي الله عنهم,raḍiyallāhu ‘anhum,FD43,ARABIC LIGATURE RADI ALLAAHU ANHUM,E919,\rad-radiyallahu-anhum,FD43,yes
-rad-radiyallahu-anhuma,radRadiyallahuAnhuma,rad,Radiyallahu,رضي الله عنهما,raḍiyallāhu ‘anhumā,FD44,ARABIC LIGATURE RADI ALLAAHU ANHUMAA,E91A,\rad-radiyallahu-anhuma,FD44,yes
-rad-radiyallahu-anhunna,radRadiyallahuAnhunna,rad,Radiyallahu,رضي الله عنهن,raḍiyallāhu ‘anhunna,FD45,ARABIC LIGATURE RADI ALLAAHU ANHUNNA,E91B,\rad-radiyallahu-anhunna,FD45,yes
-rad-alayhim-ridhwanullah,radAlayhimRidhwanullah,rad,Radiyallahu,عليهم رضوان الله,‘alayhim riḍwānullāh,,,E91C,\rad-alayhim-ridhwanullah,E91C,no
-rhm-rahimahu-allah,rhmRahimahuAllah,rhm,Rahimahullah,رحمه الله,raḥimahullāh,FD40,ARABIC LIGATURE RAHIMAHU ALLAAH,E91D,\rhm-rahimahu-allah,FD40,yes
-rhm-rahimaha-allah,rhmRahimahaAllah,rhm,Rahimahullah,رحمها الله,raḥimahallāh,,,E91E,\rhm-rahimaha-allah,E91E,no
-rhm-rahimahum-allah,rhmRahimahumAllah,rhm,Rahimahullah,رحمهم الله,raḥimahumullāh,FD4F,ARABIC LIGATURE RAHIMAHUM ALLAAH,E91F,\rhm-rahimahum-allah,FD4F,yes
-rhm-rahimahuma-allah,rhmRahimahumaAllah,rhm,Rahimahullah,رحمهما الله,raḥimahumallāh,,,E920,\rhm-rahimahuma-allah,E920,no
-rhm-rahimahunna-allah,rhmRahimahunnaAllah,rhm,Rahimahullah,رحمهن الله,raḥimahunnallāh,,,E921,\rhm-rahimahunna-allah,E921,no
-rmt-rahmatullah-alayhi,rmtRahmatullahAlayhi,rmt,Rahmatullah,رحمة الله عليه,raḥmatullāhi ‘alayh,,,E922,\rmt-rahmatullah-alayhi,E922,no
-rmt-rahmatullah-alayha,rmtRahmatullahAlayha,rmt,Rahmatullah,رحمة الله عليها,raḥmatullāhi ‘alayhā,,,E923,\rmt-rahmatullah-alayha,E923,no
-rmt-rahmatullah-alayhim,rmtRahmatullahAlayhim,rmt,Rahmatullah,رحمة الله عليهم,raḥmatullāhi ‘alayhim,,,E924,\rmt-rahmatullah-alayhim,E924,no
-rmt-rahmatullah-alayhima,rmtRahmatullahAlayhima,rmt,Rahmatullah,رحمة الله عليهما,raḥmatullāhi ‘alayhimā,,,E925,\rmt-rahmatullah-alayhima,E925,no
-rmt-rahmatullah-alayhinna,rmtRahmatullahAlayhinna,rmt,Rahmatullah,رحمة الله عليهن,raḥmatullāhi ‘alayhinna,,,E926,\rmt-rahmatullah-alayhinna,E926,no
-rmt-alayhir-rahmah,rmtAlayhirRahmah,rmt,Rahmatullah,عليه الرحمة,‘alayhir raḥmah,,,E927,\rmt-alayhir-rahmah,E927,no
-rmt-alayhar-rahmah,rmtAlayharRahmah,rmt,Rahmatullah,عليها الرحمة,‘alayhar raḥmah,,,E928,\rmt-alayhar-rahmah,E928,no
-qds-quddisa-sirrahu,qdsQuddisaSirrahu,qds,Qaddasa / Quddisa,قدس سره,quddisa sirruhu,FD4B,ARABIC LIGATURE QUDDISA SIRRAH,E929,\qds-quddisa-sirrahu,FD4B,yes
-qds-qaddasallahu-sirrahu,qdsQaddasallahuSirrahu,qds,Qaddasa / Quddisa,قدس الله سره,qaddasallāhu sirrahu,,,E92A,\qds-qaddasallahu-sirrahu,E92A,no
-qds-qaddasallahu-sirraha,qdsQaddasallahuSirraha,qds,Qaddasa / Quddisa,قدس الله سرها,qaddasallāhu sirrahā,,,E92B,\qds-qaddasallahu-sirraha,E92B,no
-qds-qaddasallahu-sirrahum,qdsQaddasallahuSirrahum,qds,Qaddasa / Quddisa,قدس الله سرهم,qaddasallāhu sirrahum,,,E92C,\qds-qaddasallahu-sirrahum,E92C,no
-qds-qaddasallahu-sirrahuma,qdsQaddasallahuSirrahuma,qds,Qaddasa / Quddisa,قدس الله سرهما,qaddasallāhu sirrahumā,,,E92D,\qds-qaddasallahu-sirrahuma,E92D,no
-qds-quddisa-sirrahuma,qdsQuddisaSirrahuma,qds,Qaddasa / Quddisa,قدس سرهما,quddisa sirrahumā,,,E92E,\qds-quddisa-sirrahuma,E92E,no
-qds-quddisa-sirrahum,qdsQuddisaSirrahum,qds,Qaddasa / Quddisa,قدس سرهم,quddisa sirrahum,,,E92F,\qds-quddisa-sirrahum,E92F,no
-qds-quddisat-asrarahum,qdsQuddisatAsrarahum,qds,Qaddasa / Quddisa,قدست أسرارهم,quddisat asrāruhum,,,E930,\qds-quddisat-asrarahum,E930,no
-hfz-hafizahu-allah,hfzHafizahuAllah,hfz,Hafizahullah,حفظه الله,hafiẓahullāh,,,E931,\hfz-hafizahu-allah,E931,no
-hfz-hafizaha-allah,hfzHafizahaAllah,hfz,Hafizahullah,حفظها الله,hafiẓahallāh,,,E932,\hfz-hafizaha-allah,E932,no
-hfz-hafizahumallah,hfzHafizahumallah,hfz,Hafizahullah,حفظهما الله,hafiẓahumallāh,,,E933,\hfz-hafizahumallah,E933,no
-hfz-hafizahumullah,hfzHafizahumullah,hfz,Hafizahullah,حفظهم الله,hafiẓahumullāh,,,E934,\hfz-hafizahumullah,E934,no
-mix-ajjalallahu-farajah,mixAjjalallahuFarajah,mix,Mixed,عجّل الله فرجه,‘ajjalallāhu farajah,,,E935,\mix-ajjalallahu-farajah,E935,no
-mix-gafarallahu,mixGafarallahu,mix,Mixed,غفر الله له,gafarallāhu lahu,,,E936,\mix-gafarallahu,E936,no
-mix-karamallahu-wajhah,mixKaramallahuWajhah,mix,Mixed,كرم الله وجهه,karamallāhu wajhah,,,E937,\mix-karamallahu-wajhah,E937,no
-mix-nafaanallahu-bihi,mixNafaanallahuBihi,mix,Mixed,نفعنا الله به,nafa‘anallāhu bihi,,,E938,\mix-nafaanallahu-bihi,E938,no
-mix-nawwarallahu-marqadahu,mixNawwarallahuMarqadahu,mix,Mixed,نوّر الله مرقده,nawwarallāhu marqadahu,,,E939,\mix-nawwarallahu-marqadahu,E939,no
-mix-damat-barakatihim,mixDamatBarakatihim,mix,Mixed,دامت بركاتهم,dāmat barakātihim,,,E93A,\mix-damat-barakatihim,E93A,no
-mix-thaba-tsarahu,mixThabaTsarahu,mix,Mixed,طاب ثراه,ṭāba tharāhu,,,E93B,\mix-thaba-tsarahu,E93B,no
-mix-dama-zhilluhu,mixDamaZhilluhu,mix,Mixed,دام ظله,dāma ẓilluhu,,,E93C,\mix-dama-zhilluhu,E93C,no
+﻿stem,glyph_name,group,group_title,arabic,translit,unicode,unicode_name,pua,shortcode,short,codepoint_to_type,copy_paste_safe
+alh-azza-wa-jalla,alhAzzaWaJalla,alh,Allah,عزَّ وجلَّ,‘azza wa jalla,FDFF,ARABIC LIGATURE AZZA WA JALL,E900,\alh-azza-wa-jalla,\azza,FDFF,yes
+alh-jalla-jalaluh,alhJallaJalaluh,alh,Allah,جلَّ جلاله,jalla jalāluh,FDFB,ARABIC LIGATURE JALLAJALALOUHOU,E901,\alh-jalla-jalaluh,\jj,FDFB,yes
+alh-jalla-wa-ala,alhJallaWaAla,alh,Allah,جلَّ وعلا,jalla wa ‘ala,,,E902,\alh-jalla-wa-ala,\jwa,E902,no
+alh-subhanahu-wa-taala,alhSubhanahuWaTaala,alh,Allah,سبحانه وتعالى,subḥanahu wa ta‘ālā,FDFE,ARABIC LIGATURE SUBHAANAHU WA TAAALAA,E903,\alh-subhanahu-wa-taala,\swt,FDFE,yes
+alh-tabaraka-wa-taala,alhTabarakaWaTaala,alh,Allah,تبارك وتعالى,tabāraka wa ta‘ālā,FD4E,ARABIC LIGATURE TABAARAKA WA-TAAALAA,E904,\alh-tabaraka-wa-taala,\twt,FD4E,yes
+alh-taala,alhTaala,alh,Allah,تعالى,ta‘ālā,,,E905,\alh-taala,\taala,E905,no
+sal-sallallahu-alayhi-wa-ala-alih,salSallallahuAlayhiWaAlaAlih,sal,Sallallahu,صلى الله عليه وعلى آله,ṣallallāhu ‘alayhi wa ‘alā ālih,FD46,ARABIC LIGATURE SALLALLAAHU ALAYHI WA-AALIH,E906,\sal-sallallahu-alayhi-wa-ala-alih,\sawa,FD46,yes
+sal-sallallahu-alayhi-wa-ala-alihi-wa-sallam,salSallallahuAlayhiWaAlaAlihiWaSallam,sal,Sallallahu,صلى الله عليه وعلى آله وسلم,ṣallallāhu ‘alayhi wa ‘alā ālihi wa sallam,FD4C,ARABIC LIGATURE SALLALLAHU ALAYHI WAAALIHEE WA-SALLAM,E907,\sal-sallallahu-alayhi-wa-ala-alihi-wa-sallam,\sawas,FD4C,yes
+sal-sallallahu-alayhi-wa-sallam-rounded,salSallallahuAlayhiWaSallamRounded,sal,Sallallahu,صلى الله عليه وسلم,ṣallallāhu ‘alayhi wa sallam (rounded),FDFA,ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM,E908,\sal-sallallahu-alayhi-wa-sallam-rounded,\saw,FDFA,yes
+sal-sallallahu-alayhi-wa-sallam-square,salSallallahuAlayhiWaSallamSquare,sal,Sallallahu,صلى الله عليه وسلم,ṣallallāhu ‘alayhi wa sallam (square),,,E909,\sal-sallallahu-alayhi-wa-sallam-square,\saw2,E909,no
+slt-alayhi-assalatu-was-salam,sltAlayhiAssalatuWasSalam,slt,As-Salatu was-Salam,عليه الصلاة والسلام,‘alayhiṣ ṣalātu was salām,FD4A,ARABIC LIGATURE ALAYHI AS-SALAATU WAS-SALAAM,E90A,\slt-alayhi-assalatu-was-salam,\sls,FD4A,yes
+slt-alayha-assalatu-was-salam,sltAlayhaAssalatuWasSalam,slt,As-Salatu was-Salam,عليها الصلاة والسلام,‘alayhaṣ ṣalātu was salām,,,E90B,\slt-alayha-assalatu-was-salam,\slsa,E90B,no
+slt-alayhi-wa-ala-alihi-assalatu-was-salam,sltAlayhiWaAlaAlihiAssalatuWasSalam,slt,As-Salatu was-Salam,عليه وعلى آله الصلاة والسلام,‘alayhi wa ‘alā ālihiṣ ṣalatu was salām,,,E90C,\slt-alayhi-wa-ala-alihi-assalatu-was-salam,\slsal,E90C,no
+slt-alayhim-assalatu-was-salam,sltAlayhimAssalatuWasSalam,slt,As-Salatu was-Salam,عليهم الصلاة والسلام,‘alayhimuṣ ṣalātu was salām,,,E90D,\slt-alayhim-assalatu-was-salam,\slsm,E90D,no
+slt-alayhima-assalatu-was-salam,sltAlayhimaAssalatuWasSalam,slt,As-Salatu was-Salam,عليهما الصلاة والسلام,‘alayhimaṣ ṣalātu was salām,,,E90E,\slt-alayhima-assalatu-was-salam,\slsma,E90E,no
+slm-alayhi-assalam,slmAlayhiAssalam,slm,As-Salam,عليه السلام,‘alayhis salām,FD47,ARABIC LIGATURE ALAYHI AS-SALAAM,E90F,\slm-alayhi-assalam,\as,FD47,yes
+slm-alayha-assalam,slmAlayhaAssalam,slm,As-Salam,عليها السلام,‘alayhas salām,FD4D,ARABIC LIGATURE ALAYHAA AS-SALAAM,E910,\slm-alayha-assalam,\asa,FD4D,yes
+slm-alayhim-assalam,slmAlayhimAssalam,slm,As-Salam,عليهم السلام,‘alayhimus salām,FD48,ARABIC LIGATURE ALAYHIM AS-SALAAM,E911,\slm-alayhim-assalam,\asm,FD48,yes
+slm-alayhima-assalam,slmAlayhimaAssalam,slm,As-Salam,عليهما السلام,‘alayhimas salām,FD49,ARABIC LIGATURE ALAYHIMAA AS-SALAAM,E912,\slm-alayhima-assalam,\asma,FD49,yes
+slw-salawatullah-alayhi,slwSalawatullahAlayhi,slw,Salawatullah,صلوات الله عليه,ṣalawātullāhi ‘alayhi,,,E913,\slw-salawatullah-alayhi,\sw,E913,no
+slw-salawatullah-alayha,slwSalawatullahAlayha,slw,Salawatullah,صلوات الله عليها,ṣalawātullāhi ‘alayhā,,,E914,\slw-salawatullah-alayha,\swa,E914,no
+slw-salawatullah-alayhim,slwSalawatullahAlayhim,slw,Salawatullah,صلوات الله عليهم,ṣalawātullāhi ‘alayhim,,,E915,\slw-salawatullah-alayhim,\swm,E915,no
+slw-salawatullah-alayhima,slwSalawatullahAlayhima,slw,Salawatullah,صلوات الله عليهما,ṣalawātullāhi ‘alayhimā,,,E916,\slw-salawatullah-alayhima,\swma,E916,no
+rad-radiyallahu-anhu,radRadiyallahuAnhu,rad,Radiyallahu,رضي الله عنه,raḍiyallāhu ‘anhu,FD41,ARABIC LIGATURE RADI ALLAAHU ANH,E917,\rad-radiyallahu-anhu,\ra,FD41,yes
+rad-radiyallahu-anha,radRadiyallahuAnha,rad,Radiyallahu,رضي الله عنها,raḍiyallāhu ‘anhā,FD42,ARABIC LIGATURE RADI ALLAAHU ANHAA,E918,\rad-radiyallahu-anha,\raa,FD42,yes
+rad-radiyallahu-anhum,radRadiyallahuAnhum,rad,Radiyallahu,رضي الله عنهم,raḍiyallāhu ‘anhum,FD43,ARABIC LIGATURE RADI ALLAAHU ANHUM,E919,\rad-radiyallahu-anhum,\ram,FD43,yes
+rad-radiyallahu-anhuma,radRadiyallahuAnhuma,rad,Radiyallahu,رضي الله عنهما,raḍiyallāhu ‘anhumā,FD44,ARABIC LIGATURE RADI ALLAAHU ANHUMAA,E91A,\rad-radiyallahu-anhuma,\rama,FD44,yes
+rad-radiyallahu-anhunna,radRadiyallahuAnhunna,rad,Radiyallahu,رضي الله عنهن,raḍiyallāhu ‘anhunna,FD45,ARABIC LIGATURE RADI ALLAAHU ANHUNNA,E91B,\rad-radiyallahu-anhunna,\ran,FD45,yes
+rad-alayhim-ridhwanullah,radAlayhimRidhwanullah,rad,Radiyallahu,عليهم رضوان الله,‘alayhim riḍwānullāh,,,E91C,\rad-alayhim-ridhwanullah,\ridwan,E91C,no
+rhm-rahimahu-allah,rhmRahimahuAllah,rhm,Rahimahullah,رحمه الله,raḥimahullāh,FD40,ARABIC LIGATURE RAHIMAHU ALLAAH,E91D,\rhm-rahimahu-allah,\rh,FD40,yes
+rhm-rahimaha-allah,rhmRahimahaAllah,rhm,Rahimahullah,رحمها الله,raḥimahallāh,,,E91E,\rhm-rahimaha-allah,\rha,E91E,no
+rhm-rahimahum-allah,rhmRahimahumAllah,rhm,Rahimahullah,رحمهم الله,raḥimahumullāh,FD4F,ARABIC LIGATURE RAHIMAHUM ALLAAH,E91F,\rhm-rahimahum-allah,\rhm,FD4F,yes
+rhm-rahimahuma-allah,rhmRahimahumaAllah,rhm,Rahimahullah,رحمهما الله,raḥimahumallāh,,,E920,\rhm-rahimahuma-allah,\rhma,E920,no
+rhm-rahimahunna-allah,rhmRahimahunnaAllah,rhm,Rahimahullah,رحمهن الله,raḥimahunnallāh,,,E921,\rhm-rahimahunna-allah,\rhn,E921,no
+rmt-rahmatullah-alayhi,rmtRahmatullahAlayhi,rmt,Rahmatullah,رحمة الله عليه,raḥmatullāhi ‘alayh,,,E922,\rmt-rahmatullah-alayhi,\rm,E922,no
+rmt-rahmatullah-alayha,rmtRahmatullahAlayha,rmt,Rahmatullah,رحمة الله عليها,raḥmatullāhi ‘alayhā,,,E923,\rmt-rahmatullah-alayha,\rma,E923,no
+rmt-rahmatullah-alayhim,rmtRahmatullahAlayhim,rmt,Rahmatullah,رحمة الله عليهم,raḥmatullāhi ‘alayhim,,,E924,\rmt-rahmatullah-alayhim,\rmm,E924,no
+rmt-rahmatullah-alayhima,rmtRahmatullahAlayhima,rmt,Rahmatullah,رحمة الله عليهما,raḥmatullāhi ‘alayhimā,,,E925,\rmt-rahmatullah-alayhima,\rmma,E925,no
+rmt-rahmatullah-alayhinna,rmtRahmatullahAlayhinna,rmt,Rahmatullah,رحمة الله عليهن,raḥmatullāhi ‘alayhinna,,,E926,\rmt-rahmatullah-alayhinna,\rmn,E926,no
+rmt-alayhir-rahmah,rmtAlayhirRahmah,rmt,Rahmatullah,عليه الرحمة,‘alayhir raḥmah,,,E927,\rmt-alayhir-rahmah,\arr,E927,no
+rmt-alayhar-rahmah,rmtAlayharRahmah,rmt,Rahmatullah,عليها الرحمة,‘alayhar raḥmah,,,E928,\rmt-alayhar-rahmah,\arra,E928,no
+qds-quddisa-sirrahu,qdsQuddisaSirrahu,qds,Qaddasa / Quddisa,قدس سره,quddisa sirruhu,FD4B,ARABIC LIGATURE QUDDISA SIRRAH,E929,\qds-quddisa-sirrahu,\qs,FD4B,yes
+qds-qaddasallahu-sirrahu,qdsQaddasallahuSirrahu,qds,Qaddasa / Quddisa,قدس الله سره,qaddasallāhu sirrahu,,,E92A,\qds-qaddasallahu-sirrahu,\qas,E92A,no
+qds-qaddasallahu-sirraha,qdsQaddasallahuSirraha,qds,Qaddasa / Quddisa,قدس الله سرها,qaddasallāhu sirrahā,,,E92B,\qds-qaddasallahu-sirraha,\qasa,E92B,no
+qds-qaddasallahu-sirrahum,qdsQaddasallahuSirrahum,qds,Qaddasa / Quddisa,قدس الله سرهم,qaddasallāhu sirrahum,,,E92C,\qds-qaddasallahu-sirrahum,\qasm,E92C,no
+qds-qaddasallahu-sirrahuma,qdsQaddasallahuSirrahuma,qds,Qaddasa / Quddisa,قدس الله سرهما,qaddasallāhu sirrahumā,,,E92D,\qds-qaddasallahu-sirrahuma,\qasma,E92D,no
+qds-quddisa-sirrahuma,qdsQuddisaSirrahuma,qds,Qaddasa / Quddisa,قدس سرهما,quddisa sirrahumā,,,E92E,\qds-quddisa-sirrahuma,\qsma,E92E,no
+qds-quddisa-sirrahum,qdsQuddisaSirrahum,qds,Qaddasa / Quddisa,قدس سرهم,quddisa sirrahum,,,E92F,\qds-quddisa-sirrahum,\qsm,E92F,no
+qds-quddisat-asrarahum,qdsQuddisatAsrarahum,qds,Qaddasa / Quddisa,قدست أسرارهم,quddisat asrāruhum,,,E930,\qds-quddisat-asrarahum,\qsasr,E930,no
+hfz-hafizahu-allah,hfzHafizahuAllah,hfz,Hafizahullah,حفظه الله,hafiẓahullāh,,,E931,\hfz-hafizahu-allah,\hf,E931,no
+hfz-hafizaha-allah,hfzHafizahaAllah,hfz,Hafizahullah,حفظها الله,hafiẓahallāh,,,E932,\hfz-hafizaha-allah,\hfa,E932,no
+hfz-hafizahumallah,hfzHafizahumallah,hfz,Hafizahullah,حفظهما الله,hafiẓahumallāh,,,E933,\hfz-hafizahumallah,\hfma,E933,no
+hfz-hafizahumullah,hfzHafizahumullah,hfz,Hafizahullah,حفظهم الله,hafiẓahumullāh,,,E934,\hfz-hafizahumullah,\hfm,E934,no
+mix-ajjalallahu-farajah,mixAjjalallahuFarajah,mix,Mixed,عجّل الله فرجه,‘ajjalallāhu farajah,,,E935,\mix-ajjalallahu-farajah,\ajjal,E935,no
+mix-gafarallahu,mixGafarallahu,mix,Mixed,غفر الله له,gafarallāhu lahu,,,E936,\mix-gafarallahu,\gafar,E936,no
+mix-karamallahu-wajhah,mixKaramallahuWajhah,mix,Mixed,كرم الله وجهه,karamallāhu wajhah,,,E937,\mix-karamallahu-wajhah,\karam,E937,no
+mix-nafaanallahu-bihi,mixNafaanallahuBihi,mix,Mixed,نفعنا الله به,nafa‘anallāhu bihi,,,E938,\mix-nafaanallahu-bihi,\nafa,E938,no
+mix-nawwarallahu-marqadahu,mixNawwarallahuMarqadahu,mix,Mixed,نوّر الله مرقده,nawwarallāhu marqadahu,,,E939,\mix-nawwarallahu-marqadahu,\nawwar,E939,no
+mix-damat-barakatihim,mixDamatBarakatihim,mix,Mixed,دامت بركاتهم,dāmat barakātihim,,,E93A,\mix-damat-barakatihim,\damat,E93A,no
+mix-thaba-tsarahu,mixThabaTsarahu,mix,Mixed,طاب ثراه,ṭāba tharāhu,,,E93B,\mix-thaba-tsarahu,\taba,E93B,no
+mix-dama-zhilluhu,mixDamaZhilluhu,mix,Mixed,دام ظله,dāma ẓilluhu,,,E93C,\mix-dama-zhilluhu,\dama,E93C,no
